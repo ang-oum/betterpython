@@ -8,6 +8,7 @@ def generate_id(length=8):
     # helper function for generating an id
     return ''.join(random.choices(string.ascii_uppercase, k=length))
 
+# fr
 
 class SupportTicket:
 
